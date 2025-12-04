@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.json({ message: "He 🚀" });
+    res.json({ message: "Hello mmmm 🚀" });
 });
 
 if (process.env.NODE_ENV !== "test") {
